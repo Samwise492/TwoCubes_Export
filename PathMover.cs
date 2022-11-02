@@ -7,7 +7,7 @@ public class PathMover : MonoBehaviour
 {
     PathCreator pathCreator;
     NavMeshAgent navMeshAgent;
-    public Queue<Vector3> pathPoints = new Queue<Vector3>();
+    [HideInInspector] public Queue<Vector3> pathPoints = new Queue<Vector3>();
 
     void Awake()
     {

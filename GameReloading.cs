@@ -9,7 +9,7 @@ public class GameReloading : MonoBehaviour
 {
     [SerializeField] Text defeatText, winText;
     CollideDetection[] collideDetection;
-    public int winCounter;
+    [HideInInspector] public int winCounter;
 
     void Start()
     {

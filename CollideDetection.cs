@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CollideDetection : MonoBehaviour
 {
-    public bool isTouchedGround, isTouchedFinish, gameEnd;
+    [HideInInspector] public bool isTouchedGround, isTouchedFinish, gameEnd;
 
     void OnTriggerStay(Collider col)
     {
